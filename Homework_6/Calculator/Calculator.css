@@ -1,0 +1,26 @@
+.table { 
+display: table; 
+} 
+.table-row { 
+display: table-row; 
+} 
+.table-cell { 
+display: table-cell; 
+text-align: center;
+border: 2px solid grey;
+border-radius: 10px;
+}
+textarea {
+	resize: none;
+	border-radius: 10px;
+	border: 3px solid red;
+	text-align: center;
+}
+.otvet{
+	position: absolute;
+	left: 385px;
+}
+img{
+	height: 100px;
+}
+
