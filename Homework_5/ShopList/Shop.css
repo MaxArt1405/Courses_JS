@@ -1,0 +1,22 @@
+.List div{
+ 	position: relative;
+ 	overflow: hidden;
+ 	width: 280px;
+ 	border: 1px solid black;
+ 	border-radius: 10px;
+ 	background-color: grey;
+	padding:5px;
+	margin-top:30px;
+ }	
+ img{
+ 	display: block;
+ 	float: left;
+ 	width:70px;
+ 	border: 3px solid grey;
+ 	border-radius: 15px;
+ }
+ .List {
+ 	position: fixed;
+ 	bottom: 50px;
+ 	right: 50px;
+ }
