@@ -1,37 +1,37 @@
 var first = document.querySelector(".First");
-var two = document.querySelector(".Second");
-var three = document.querySelector(".Third");
+var second = document.querySelector(".Second");
+var third = document.querySelector(".Third");
 var html = document.querySelector("html");
 
 first.addEventListener("click",function(e)
 {
 	console.log(e)
-	two.style.display ="block";
+	decond.style.display ="block";
 	e.stopImmediatePropagation();
 
-		if(e.target == first &&  window.getComputedStyle(two).display =="block")
+		if(e.target == first &&  window.getComputedStyle(decond).display =="block")
 		{
-			two.removeAttribute("style");
-			three.removeAttribute("style");
+			decond.removeAttribute("style");
+			third.removeAttribute("style");
 		}
 		
 		html.addEventListener("click",function(e)
 		{
 			console.log(e)
-			if(e.target == this && window.getComputedStyle(three).display =="none")
-				two.removeAttribute("style");
+			if(e.target == this && window.getComputedStyle(third).display =="none")
+				second.removeAttribute("style");
 			else
-				three.style.display ="block";
+				third.style.display ="block";
 
-			if(e.target == two &&  window.getComputedStyle(three).display =="block")
-				three.removeAttribute("style");
+			if(e.target == second &&  window.getComputedStyle(third).display =="block")
+				third.removeAttribute("style");
 			
 			html.addEventListener("click",function(e)
 			{
-				if(e.target == this || e.currentTarget == two)
+				if(e.target == this || e.currentTarget == second)
 				{
 					e.stopImmediatePropagation();
-					three.removeAttribute("style");
+					third.removeAttribute("style");
 				}
 			})
 		})

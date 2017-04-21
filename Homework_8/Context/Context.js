@@ -1,7 +1,7 @@
 var list = document.querySelector(".list");
 var html = document.querySelector("html");
 
-html.addEventListener("click", function(e){
+html.addEventListener("contexеmenu", function(e){
 
 	if(window.getComputedStyle(list).display=="none")
 	{
