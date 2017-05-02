@@ -1,0 +1,36 @@
+       
+ 		.sliding .slide-content p
+ 		{
+ 			text-align: center;
+ 			padding: 20px;
+ 			display: none;
+ 			height: 50px;
+ 			border-radius: 10px;
+ 		}
+ 		.sliding .slide-content p.active
+ 		{
+ 			display: block;
+ 			
+ 		}
+
+ 		.sliding .prev
+ 		{
+ 			left: 10px;
+ 		}
+ 		.sliding .next
+ 		{
+ 			left: 130px;
+ 		}
+ 		.feedback textarea
+ 		{
+ 			padding: 30px;
+ 			display: block;
+ 			height: 100px;
+ 		}
+ 		.about p
+ 		{
+ 			height: 200px;
+ 			text-align: center;
+ 			border-radius: 10px;
+ 		}
+ 		
