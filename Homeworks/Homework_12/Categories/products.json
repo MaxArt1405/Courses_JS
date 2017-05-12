@@ -1,0 +1,38 @@
+[
+	{
+		"name":"Coca-cola",
+		"type":"Drink",
+		"count":3,
+		"price": 20
+	},
+	{
+		"name":"Pizza",
+		"type":"Food",
+		"count":5,
+		"price": 40
+	},
+	{
+		"name":"Mersedes",
+		"type":"Viecle",
+		"count":2,
+		"price": 80000
+	},
+	{
+		"name":"Bonaqua",
+		"type":"Drink",
+		"count":2,
+		"price": 40
+	},
+	{
+		"name":"Berezinskiy",
+		"type":"Food",
+		"count":8,
+		"price": 60
+	},
+	{
+		"name":"Lada",
+		"type":"Viecle",
+		"count":7,
+		"price": 8000
+	}
+]

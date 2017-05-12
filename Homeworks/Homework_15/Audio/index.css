@@ -1,0 +1,17 @@
+.Btns{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid grey;
+	border-radius: 5px;
+	width: 600px;
+	height: 50px;
+}
+.volume{
+	height: 50px;
+	width: 70px;
+}
+.time{
+	margin-top: 10px;
+	width: 90px;
+	height: 25px;
+}

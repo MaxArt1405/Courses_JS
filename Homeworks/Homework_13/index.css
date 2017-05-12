@@ -1,0 +1,36 @@
+.btns{
+	display: flex;
+	flex-direction: row;
+}
+.change{
+	display: flex;
+	flex-direction: row;
+	margin:10px;
+}
+
+.div{
+	width:600px;
+	height: 400px;
+	border: 2px solid black;
+}
+.fontSize{
+	width:60px;
+	margin:5px;
+	height: 20px;
+}
+.fontFamily{
+	height:20px;
+	margin:5px;
+}
+.Text{
+	display: flex;
+	flex-direction: row;
+	margin:10px;
+	height: 25px;
+}
+.color{
+	margin-left:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
